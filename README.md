@@ -7,9 +7,16 @@
 #启动访问测试  
 
 key-String存储测试:   
-http://localhost:8080/redis/test
+http://localhost:8080/user/testGetSet
 
 key-对象存储测试:   
-http://localhost:8080/redis/setUser
+http://localhost:8080/user/setUser
 
+分布式锁测试
+http://localhost:8080/cacheLock/test
 
+自定义key限流
+http://localhost:8080/cacheLimit/testCustom
+
+IP限流
+http://localhost:8080/cacheLimit/testIp
